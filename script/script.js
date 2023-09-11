@@ -12,9 +12,9 @@ $( document ).ready(function() {
 
   
   $( "#dogeWindows" ).draggable({
-      stop: function() {
+        stop: function() {
         if(  $('#dogeWindows').position().left > 500){
-        //  alert("you haswss wowzazzz ");
+          alert("You're so heckin close!");
           
            $('#dogeWindows').attr('src','https://pbs.twimg.com/media/BASrCNQCAAEh2Rk?format=jpg&name=small');
     }
