@@ -14,16 +14,16 @@ $( document ).ready(function() {
   $( "#dogeWindows" ).draggable({
         stop: function() {
         if(  $('#dogeWindows').position().left > 500){
-          alert("You're so heckin close!");
+          // alert("You're so heckin close!");
           
            $('#dogeWindows').attr('src','https://pbs.twimg.com/media/BASrCNQCAAEh2Rk?format=jpg&name=small');
     }
      
         else if( $('#dogeWindows').position().left > 300 && $('#dogeWindows').position().left < 500){
-          alert("Keep it movin!");
+          // alert("Keep it movin!");
         }    
         else {
-          alert("Rock and Roll!");
+          //alert("Rock and Roll!");
         }
     }
     
